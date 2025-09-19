@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+
+body {
+  background: #b4befe;
+  color: #1e1e2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Yesteryear", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 50%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.q {
+  font-size: 3rem;
+  padding-top: 4rem;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: 0;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  font-size: 2rem;
+  font-family: "Yesteryear", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background: #1e1e2e;
+  color: #b4befe;
+  cursor: pointer;
+}
+
+.move {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
